@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.web.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Test Cases">
+		<classes>
+			<class name="com.web.qa.testcases.IntroPageTest">
+			<!-- <methods>
+			<include name="introPageTest" />
+			</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>
