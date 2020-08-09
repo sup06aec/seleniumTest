@@ -14,6 +14,8 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.web.qa.util.TestUtil;
 import com.web.qa.util.WebEventListener;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
@@ -42,7 +44,8 @@ public class TestBase {
 	public static void initialization() throws IOException {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:/Supriya/driver/chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver", "C:/Supriya/driver/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
 			else if(browserName.equals("FF")) {

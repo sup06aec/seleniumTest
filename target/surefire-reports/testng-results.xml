@@ -2,49 +2,49 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-21T12:39:14Z" name="Test Automation Test Suite" finished-at="2020-05-21T12:40:38Z" duration-ms="83634">
+  <suite started-at="2020-08-09T11:38:39Z" name="Test Automation Test Suite" finished-at="2020-08-09T11:40:10Z" duration-ms="90769">
     <groups>
     </groups>
-    <test started-at="2020-05-21T12:39:14Z" name="Test Cases" finished-at="2020-05-21T12:40:38Z" duration-ms="83634">
+    <test started-at="2020-08-09T11:38:39Z" name="Test Cases" finished-at="2020-08-09T11:40:10Z" duration-ms="90769">
       <class name="com.web.qa.testcases.IntroPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.web.qa.testcases.IntroPageTest@17d0685f]" started-at="2020-05-21T12:39:15Z" name="setUp" finished-at="2020-05-21T12:39:30Z" duration-ms="15585" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.web.qa.testcases.IntroPageTest@150c158]" started-at="2020-08-09T11:38:39Z" name="setUp" finished-at="2020-08-09T11:38:59Z" duration-ms="20181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="introPageTest()[pri:0, instance:com.web.qa.testcases.IntroPageTest@17d0685f]" started-at="2020-05-21T12:39:30Z" name="introPageTest" finished-at="2020-05-21T12:39:50Z" duration-ms="20132" status="PASS">
+        <test-method signature="introPageTest()[pri:0, instance:com.web.qa.testcases.IntroPageTest@150c158]" started-at="2020-08-09T11:38:59Z" name="introPageTest" finished-at="2020-08-09T11:39:20Z" duration-ms="20347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- introPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.web.qa.testcases.IntroPageTest@17d0685f]" started-at="2020-05-21T12:39:50Z" name="tearDown" finished-at="2020-05-21T12:39:52Z" duration-ms="1503" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.web.qa.testcases.IntroPageTest@150c158]" started-at="2020-08-09T11:39:20Z" name="tearDown" finished-at="2020-08-09T11:39:22Z" duration-ms="2554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.web.qa.testcases.IntroPageTest@17d0685f]" started-at="2020-05-21T12:39:52Z" name="setUp" finished-at="2020-05-21T12:40:06Z" duration-ms="13960" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.web.qa.testcases.IntroPageTest@150c158]" started-at="2020-08-09T11:39:22Z" name="setUp" finished-at="2020-08-09T11:39:33Z" duration-ms="10628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.web.qa.testcases.IntroPageTest@17d0685f]" started-at="2020-05-21T12:40:06Z" name="loginTest" finished-at="2020-05-21T12:40:37Z" duration-ms="31003" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.web.qa.testcases.IntroPageTest@150c158]" started-at="2020-08-09T11:39:33Z" name="loginTest" finished-at="2020-08-09T11:40:05Z" duration-ms="31764" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Login"}
-  (Session info: chrome=81.0.4044.138)
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BDC7-L-44221Y5', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SINDRA~1.DIR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f9111bb730f468df2b8a496a2e5960b3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SINDRA~1.DIR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e000ca561a03dd95531b7e8350fb2762
 *** Element info: {Using=link text, value=Login}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
-  (Session info: chrome=81.0.4044.138)
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BDC7-L-44221Y5', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SINDRA~1.DIR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f9111bb730f468df2b8a496a2e5960b3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SINDRA~1.DIR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e000ca561a03dd95531b7e8350fb2762
 *** Element info: {Using=link text, value=Login}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -107,7 +107,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.web.qa.testcases.IntroPageTest@17d0685f]" started-at="2020-05-21T12:40:37Z" name="tearDown" finished-at="2020-05-21T12:40:38Z" duration-ms="1385" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.web.qa.testcases.IntroPageTest@150c158]" started-at="2020-08-09T11:40:05Z" name="tearDown" finished-at="2020-08-09T11:40:10Z" duration-ms="5212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
